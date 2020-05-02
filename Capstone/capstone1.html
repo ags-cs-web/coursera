@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+  		<meta charset="UTF-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+		<title>A.G.S | Coursera@capstone</title>
+
+		<!-- fonticons -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<!-- fonticons -->
+		<!-- google fonts -->
+
+		<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Gugi&display=swap" rel="stylesheet">
+
+		<!-- google fonts -->
+
+
+		<!-- stylesheet -->
+		<link href="capstone1.css" rel="stylesheet">
+		<!-- stylesheet -->
+
+		<!--js_file-->
+		<script src="capstone1.js"></script>
+		<!--js_file-->
+
+	</head>
+
+	<body>
+
+		<header>
+
+			<div class="nav-icon" onclick="mobile1()"><i class="fas fa-bars"></i></div>
+
+			<div class="mobile-navbar">
+
+
+
+				<ul class="menu closed">
+				<li><a href="#" class="close" onclick="mobile2()"><i class="fas fa-times"></i></a></li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#gallery">My Gallery</a></li>
+				<li><a href="#contact-me">Contact Me</a></li>
+
+			</ul>
+
+			</div>
+			<nav id="navbar" class="nav">
+
+				<a href="#">Home</a>
+				<a href="#gallery">My Gallery</a>
+				<a href="#contact-me">Contact Me</a>
+
+			</nav>
+		</header>
+
+		<div class="container">
+
+			<section class="welcome-sec" id="welcome-section">
+
+				<div class="welcome-part">
+
+					<div class="photo-div"><img src="images/img1.jpg" alt="profile-picture" class="photo"/></div>
+					<h1>Hi, I'm <span>Anustup Ganguly</span></h1>
+					<p>I have just Started Front End Development</p>
+
+				</div>
+
+				<div class="wmi not-visible" id="who-am-i">
+
+					<h2>Who am I?</h2>
+					<p> a self-motivated and hard working Budding Engineering student pursuing B.tech in Computer Science from <a href="http://www.gcetts.org/" target="_blank">Government College Of Engineering and Textile Technology</a>, Serampore, India.</p>
+
+					<div class="social">
+
+						<a class="profile-link" href="https://github.com/ags-cs-web" target="_blank"><i class="fab fa-github"></i></a>
+						<a class="profile-link" href="https://codepen.io/ags-cs-web" target="_blank"><i class="fab fa-codepen"></i></a>
+						<a class="profile-link" href="https://www.hackerrank.com/anustup7044?hr_r=1" target="_blank"><i class="fab fa-hackerrank"></i></a>
+					</div>
+				</div>
+
+				<div class="contain">
+					<div class="circle left colored" onclick="leftSlider()"></div>
+					<div class="circle right" onclick="rightSlider()"></div>
+				</div>
+
+			</section>
+		</div>
+
+
+		<div class="Gallery" id="gallery">
+		  <div class="mySlides">
+		    <div class="numbertext">1 / 6</div>
+		    <img class="im" src="images/img2.jpg" alt="" >
+		  </div>
+
+		  <div class="mySlides">
+		    <div class="numbertext">2 / 6</div>
+		    <img class="im" src="images/img3.jpg" alt="" >
+		  </div>
+
+		  <div class="mySlides">
+		    <div class="numbertext">3 / 6</div>
+		    <img class="im" src="images/img4.jpg" alt="" >
+		  </div>
+		    
+		  <div class="mySlides">
+		    <div class="numbertext">4 / 6</div>
+		    <img class="im" src="images/img5.jpg" alt="" >
+		  </div>
+
+		  <div class="mySlides">
+		    <div class="numbertext">5 / 6</div>
+		    <img class="im" src="images/img6.jpg" alt="" >
+		  </div>
+		    
+		  <div class="mySlides">
+		    <div class="numbertext">6 / 6</div>
+		    <img class="im" src="images/img7.jpg" alt="" >
+		  </div>
+		    
+		  <a class="prev" onclick="plusSlides(-1)">❮</a>
+		  <a class="next" onclick="plusSlides(1)">❯</a>
+
+		  <div class="caption-container">
+		    <p id="caption"></p>
+		  </div>
+
+		  <div class="row">
+		    <div class="column">
+		      <img class="demo cursor img-responsive" src="images/img2.jpg" onclick="currentSlide(1)" alt="A fine Morning">
+		    </div>
+		    <div class="column">
+		      <img class="demo cursor img-responsive" src="images/img3.jpg"  onclick="currentSlide(2)" alt="Our Durga puja">
+		    </div>
+		    <div class="column">
+		      <img class="demo cursor img-responsive" src="images/img4.jpg"  onclick="currentSlide(3)" alt="Victoria">
+		    </div>
+		    <div class="column">
+		      <img class="demo cursor img-responsive" src="images/img5.jpg"  onclick="currentSlide(4)" alt="The College Campus">
+		    </div>
+		    <div class="column">
+		      <img class="demo cursor img-responsive" src="images/img6.jpg"  onclick="currentSlide(5)" alt="My School">
+		    </div>    
+		    <div class="column">
+		      <img class="demo cursor img-responsive" src="images/img7.jpg"  onclick="currentSlide(6)" alt="Kalighat Temple">
+		    </div>
+		  </div>
+		</div>
+
+		<section id="contact-me" class="contact">
+		<div class="contact-div">
+
+			<h2>Contact Me</h2>
+
+			<p>Have something to share with me? <span>Just say Hello at:</span></p>
+
+			<p class="email">anustup7044@gmail.com</p>
+
+		</div>
+
+			<div class="social">
+
+						<a class="profile-link" href="https://github.com/ags-cs-web" target="_blank"><i class="fab fa-github"></i></a>
+						<a class="profile-link" href="https://codepen.io/ags-cs-web" target="_blank"><i class="fab fa-codepen"></i></a>
+						<a class="profile-link" href="https://www.hackerrank.com/anustup7044?hr_r=1" target="_blank"><i class="fab fa-hackerrank"></i></a>
+					</div>
+		</section>
+
+		<footer id="footer">Copyright&copy;2019 Anustup Ganguly. All Rights Reserved.</footer>
+
+		<!--		Jquery-->
+		<script
+  		src="https://code.jquery.com/jquery-3.4.1.min.js"
+  		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  		crossorigin="anonymous"></script>
+		<!--		Jquery-->
+	</body>
+
+</html>
