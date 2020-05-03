@@ -66,7 +66,7 @@ header .nav {
 /*add animation class*/
 
 
-.container .welcome-sec {
+.container .welcome {
 
 	background-color: #130f40;
   background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
@@ -77,7 +77,7 @@ header .nav {
 
 
 }
-.welcome-sec .welcome-part {
+.welcome .welcome-part {
 
   	margin: 0 auto;
  /*for animation*/
@@ -146,18 +146,18 @@ header .nav {
 
 	font-size: 2vw;
 }
-.container .welcome-sec .wmi {
+.container .welcome .wmi {
   	width: 500px;
   	text-align: center;
 	margin: -200px auto 0 auto;
 }
 
-.welcome-sec .not-visible {
+.welcome .not-visible {
 
 	transform:  translateX(-400%);
 }
 
-.container .welcome-sec .wmi h2 {
+.container .welcome .wmi h2 {
   font-size: 3vw;
   font-weight: 600;
   color: #A3395B;
@@ -165,34 +165,34 @@ header .nav {
   text-transform: capitalize;
 }
 
-.container .welcome-sec .wmi p {
+.container .welcome .wmi p {
   	font-weight: 400;
 	padding-bottom: 30px;
 	line-height: 20px;
 
 }
 
-.container .welcome-sec .wmi p a{
+.container .welcome .wmi p a{
   text-decoration: none;
   color: #FFFFFF;
 }
 
-.container .welcome-sec .wmi p a:hover{
+.container .welcome .wmi p a:hover{
   color: #29094E;
 }
 
-.container .welcome-sec .wmi .social i {
+.container .welcome .wmi .social i {
   padding: 15px 0 0 20px;
   font-size: 25px;
   color: #A6A5A6;
 }
 
-.container .welcome-sec .wmi .social i:hover {
+.container .welcome .wmi .social i:hover {
   color: #A3395B;
   cursor: pointer;
 }
 
-.container .welcome-sec .contain {
+.container .welcome .contain {
   display: flex;
   justify-content: center;
 
@@ -202,7 +202,7 @@ position: absolute;
 
 }
 
-.container .welcome-sec .contain .circle {
+.container .welcome .contain .circle {
   display: block;
   border-color: #FFFFFF;
   width: 20px;
@@ -212,11 +212,11 @@ position: absolute;
   cursor: pointer;
 }
 
-.container .welcome-sec .contain .colored {
+.container .welcome .contain .colored {
   background-color: #A3395B;
 }
 
-.container .welcome-sec .contain .right {
+.container .welcome .contain .right {
   margin-left: 10px;
 }
 
@@ -535,19 +535,19 @@ footer{
 		font-size: 25px;
 	}
 
-	.container .welcome-sec .contain {
+	.container .welcome .contain {
 
 		left: 45%;
 		top: 90%;
 
 	}
 
-	.container .welcome-sec .wmi {
+	.container .welcome .wmi {
 
 		width: 90%;
 	}
 
-	.container .welcome-sec .wmi h2 {
+	.container .welcome .wmi h2 {
 		font-size: 25px;
 	}
 
