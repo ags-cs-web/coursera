@@ -220,6 +220,32 @@ position: absolute;
   margin-left: 10px;
 }
 
+/*Up arrow sytyling*/
+
+.Up{
+  display: inline-flex;
+  position: fixed;
+  left: 5%;
+  bottom: 0;
+  align-items: left;
+  background-color: #121912;
+  background-image: linear-gradient(315deg, #121912 0%, #313131 74%);
+  opacity: .4;
+  cursor: pointer;
+  z-index: 1;
+  border-radius: 50%;
+  padding: 1vh;
+}
+.Up i{
+  font-size: 8vh;
+  color: #FA3FF9;
+}
+
+.Up i:hover{
+  opacity: 1;
+  color: #FC2277;
+}
+
 
 /*style contact section*/
 
