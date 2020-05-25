@@ -319,12 +319,13 @@ position: absolute;
   color: #A3395B;
 }
 
-footer {
-  color: #A6A5A6;
-  text-align: left;
-  padding: 5px 30px;
+footer{
+  background-color: #7ed6df;
+  background-image: linear-gradient(315deg, #7ed6df 0%, #000000 74%);
+  position: sticky;
+  text-align: right;
+  height: 5vh;
 }
-
 /*style for gallery*/
 
 
