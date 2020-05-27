@@ -11,6 +11,10 @@ function Upindicate(){
 		var Upi = document.getElementById('Indicate');
 		Upi.style.display = 'inline-flex';
 	}
+	else{
+		var Upi = document.getElementById('Indicate');
+		Upi.style.display = 'none';
+	}
 }
 
 // slider functions
