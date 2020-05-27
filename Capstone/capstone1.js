@@ -6,13 +6,11 @@ function NO_loader(){
 
 window.onscroll = function() {Upindicate()};
 function Upindicate(){
-	
+	var Upi = document.getElementById('Indicate');
 	if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350){
-		var Upi = document.getElementById('Indicate');
 		Upi.style.display = 'inline-flex';
 	}
 	else{
-		var Upi = document.getElementById('Indicate');
 		Upi.style.display = 'none';
 	}
 }
