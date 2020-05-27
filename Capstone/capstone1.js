@@ -1,3 +1,18 @@
+//preloader end
+function NO_loader(){
+	var preloader = document.getElementById('loader');
+	preloader.style.display = 'none';
+}
+
+window.onscroll = function() {Upindicate()};
+function Upindicate(){
+	
+	if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350){
+		var Upi = document.getElementById('Indicate');
+		Upi.style.display = 'inline-flex';
+	}
+}
+
 // slider functions
 document.querySelector('.right').addEventListener('click', function() {
 
